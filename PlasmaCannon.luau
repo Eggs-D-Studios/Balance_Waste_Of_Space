@@ -6,8 +6,13 @@ return {
     PowerDraw = 500,
     ProjectileVelocity = 500,
     ProjectileDistance = 3000,
+
+    -- Damage is calculated using ExplosionPreassure in the following equations:
+    -- To Objects: damage = BlastPressure / 50000 * (pierceMultiplier or 1) * (1 - (object.ExplosionResistance or 0))
+    -- To players: damage = (BlastPressure / 5000) * (pierceMultiplier or 1)
     ExplosionRadius = 45,
     ExplosionPressure = 800000,
+    
     PierceMultiplier = 0.1,
     DamageForceFieldBy = 8,
 

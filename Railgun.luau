@@ -10,6 +10,7 @@ return {
     DamageForceField = 13,
     IndirectHitDamagePlayer = 70,
     DirectHitDamagePlayer = 10000,
+    BeamDistance = 5000,
 
     PierceMultiplier = 2,
     PierceDivider = 10,
