@@ -9,7 +9,8 @@ return {
     ProjectileExplosionRadius = 11,
     ProjectileExplosionPressure = 60000,
     PierceDamage = 0,
-    Velocity = 700,
+	-- Higher velocities reward using unique weapons and their timing, scaling to guns.
+    Velocity = 2000,
     ProjectilesShot = 5,
     
     --part itself
